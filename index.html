@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Shop</title>
+    <link rel="shortcut icon" href="Image/car4.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <header id="header" class="header">
+        <div id="menu-btn" class="fa-solid fa-bars"></div>
+        <h3 class="branding">
+            <a href="#">Car<span>Shop</span></a>
+        </h3>
+
+        <nav class="nav-menu">
+            <ul class="menu-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#vehicle">Vehicles</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- login button -->
+        <div id="login-btn">
+            <button type="button" class="btn">login</button>
+            <i class="fa-solid fa-user"></i>
+        </div>
+        <div class="header-search-container">
+
+            <input type="search" name="search" class="search-field" placeholder="Find your Car...">
+  
+            <button class="search-btn">
+              <i class="fa-solid fa-search"></i>
+            </button>
+  
+          </div>
+    </header>
+
+    <!--------LOGIN FORM START-------- -->
+    <div class="login-form-container">
+        <span class="fa-solid fa-xmark" id="close-login-btn"></span>
+        <form action="" class="login-form">
+            <h3>user login</h3>
+            <input type="email" placeholder="email" class="box">
+            <input type="password" placeholder="password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <a href="#" class="btn">Login now</a>
+            <p>or login with</p>
+            <div class="buttons">
+                <a href="#" class="btn">google</a>
+                <a href="#" class="btn">facebook</a>
+            </div>
+            <p>don't have an account <a href="#">create one</a></p>
+        </form>
+    </div>
+    <!-- ----LOGIN FORM ENDS-------->
+
+
+    <!-------HOME SECTION START-------  -->
+    <section class="home" id="home">
+        <h1>
+            drive your dreams
+        </h1>
+        <img src="Image/car0.png" alt="">
+        <button class="btn">explore cars</button>
+
+        <div id="newsletter-container">
+            <div id="newsletter-content">
+                <img src="Image/car11.png" alt="Newsletter Image" />
+                <div id="newsletter-text">
+                    <p>Subscribe CarShop for latest updates on cars and Products.</p>
+                    <form id="newsletter-form">
+                        <input type="email" id="email-input" placeholder="Enter your email" />
+                        <button type="submit" id="subscribe-button" class="btn">Subscribe</button>
+                    </form>
+                </div>
+                <button id="close-button">&times;</button>
+            </div>
+        </div>  
+    </section>     
+    <!------- HOME SECTION ENDS-------  -->
+    
+    <!-------..ICON SECTION START-------  -->
+    <section class="icons-container" id="icons-container">
+
+        <div class="icons">
+            <i class="bx bxs-business"></i>
+            <div class="content">
+                <h3>100+</h3>
+                <p>branches</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="bx bxs-car"></i>
+            <div class="content">
+                <h3>3100+</h3>
+                <p>cars sold</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="bx bx-happy-alt"></i>
+            <div class="content">
+                <h3>2000+</h3>
+                <p>happy clients</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="bx bxs-car"></i>
+            <div class="content">
+                <h3>500+</h3>
+                <p>new cars</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="bx bx-headphone"></i>
+            <div class="content">
+                <h3>24/7</h3>
+                <p>Support</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="bx bxs-car-mechanic"></i>
+            <div class="content">
+                <h3>2500+</h3>
+                <p>Experts</p>
+            </div>
+        </div>
+
+    </section>
+    <!-------....ICON SECTION ENDS -------  -->
+
+    <!-------....VEHICLE SECTION START-------  -->
+    <section id="vehicle" class="vehicle">
+        <h2>Trending <span class="span-title">Vehicles</span></h2>
+        <div class="slider">
+            <div class="btn-2">
+                <i class="fa-solid fa-angle-left" id="preBtn"></i>
+                <i class="fa-solid fa-angle-right" id="nextBtn"></i>
+            </div>
+    
+            <div class="slider-wrapper">
+                <div class="box">
+                    <img src="Image/car1.png" alt="">
+                    <div class="content">
+                        <h3>new model</h3>
+                        <div class="price"><span>price: </span>&#x20A6;15,200,000</div>
+                        <p>
+                            <span class="fa-solid fa-car"></span>2023
+                            <span class="fa-solid fa-gear"></span>automatic
+                            <span class="fa-solid fa-gas-pump"></span>petrol
+                            <span class="fa-solid fa-gauge"></span>183mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <img src="Image/car2.png" alt="">
+                    <div class="content">
+                        <h3>new model</h3>
+                        <div class="price"><span>price: &#x20A6;33,400,000</span></div>
+                        <p>
+                            <span class="fa-solid fa-car"></span>2023
+                            <span class="fa-solid fa-gear"></span>automatic
+                            <span class="fa-solid fa-gas-pump"></span>petrol
+                            <span class="fa-solid fa-gauge"></span>183mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <img src="Image/car3.png" alt="">
+                    <div class="content">
+                        <h3>new model</h3>
+                        <div class="price"><span>price: </span>&#x20A6;23,400,000</div>
+                        <p>
+                            <span class="fa-solid fa-car"></span>2023
+                            <span class="fa-solid fa-gear"></span>automatic
+                            <span class="fa-solid fa-gas-pump"></span>petrol
+                            <span class="fa-solid fa-gauge"></span>183mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <img src="Image/car4.png" alt="">
+                    <div class="content">
+                        <h3>new model</h3>
+                        <div class="price"><span>price: </span>&#x20A6;34,500,000</div>
+                        <p>
+                            <span class="fa-solid fa-car"></span>2023
+                            <span class="fa-solid fa-gear"></span>automatic
+                            <span class="fa-solid fa-gas-pump"></span>petrol
+                            <span class="fa-solid fa-gauge"></span>183mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <img src="Image/car5.png" alt="">
+                    <div class="content">
+                        <h3>new model</h3>
+                        <div class="price"><span>price: </span>&#x20A6;22,00,000</div>
+                        <p>
+                            <span class="fa-solid fa-car"></span>2023
+                            <span class="fa-solid fa-gear"></span>automatic
+                            <span class="fa-solid fa-gas-pump"></span>petrol
+                            <span class="fa-solid fa-gauge"></span>183mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <img src="Image/car6.png" alt="">
+                    <div class="content">
+                        <h3>new model</h3>
+                        <div class="price"><span>price: </span>&#x20A6;34,500,000</div>
+                        <p>
+                            <span class="fa-solid fa-car"></span>2023
+                            <span class="fa-solid fa-gear"></span>automatic
+                            <span class="fa-solid fa-gas-pump"></span>petrol
+                            <span class="fa-solid fa-gauge"></span>183mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <img src="Image/car1.png" alt="">
+                    <div class="content">
+                        <h3>new model</h3>
+                        <div class="price"><span>price: </span>&#x20A6;33,330,000</div>
+                        <p>
+                            <span class="fa-solid fa-car"></span>2023
+                            <span class="fa-solid fa-gear"></span>automatic
+                            <span class="fa-solid fa-gas-pump"></span>petrol
+                            <span class="fa-solid fa-gauge"></span>183mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <img src="Image/car3.png" alt="">
+                    <div class="content">
+                        <h3>new model</h3>
+                        <div class="price"><span>price: </span>&#x20A6;23,400,000</div>
+                        <p>
+                            <span class="fa-solid fa-car"></span>2023
+                            <span class="fa-solid fa-gear"></span>automatic
+                            <span class="fa-solid fa-gas-pump"></span>petrol
+                            <span class="fa-solid fa-gauge"></span>183mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <img src="Image/car4.png" alt="">
+                    <div class="content">
+                        <h3>new model</h3>
+                        <div class="price"><span>price: </span>&#x20A6;34,500,000</div>
+                        <p>
+                            <span class="fa-solid fa-car"></span>2023
+                            <span class="fa-solid fa-gear"></span>automatic
+                            <span class="fa-solid fa-gas-pump"></span>petrol
+                            <span class="fa-solid fa-gauge"></span>183mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <img src="Image/car5.png" alt="">
+                    <div class="content">
+                        <h3>new model</h3>
+                        <div class="price"><span>price: </span>&#x20A6;22,00,000</div>
+                        <p>
+                            <span class="fa-solid fa-car"></span>2023
+                            <span class="fa-solid fa-gear"></span>automatic
+                            <span class="fa-solid fa-gas-pump"></span>petrol
+                            <span class="fa-solid fa-gauge"></span>183mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <img src="Image/car6.png" alt="">
+                    <div class="content">
+                        <h3>new model</h3>
+                        <div class="price"><span>price: </span>&#x20A6;34,500,000</div>
+                        <p>
+                            <span class="fa-solid fa-car"></span>2023
+                            <span class="fa-solid fa-gear"></span>automatic
+                            <span class="fa-solid fa-gas-pump"></span>petrol
+                            <span class="fa-solid fa-gauge"></span>183mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="Image/car1.png" alt="">
+                    <div class="content">
+                        <h3>new model</h3>
+                        <div class="price"><span>price: </span>&#x20A6;15,200,000</div>
+                        <p>
+                            <span class="fa-solid fa-car"></span>2023
+                            <span class="fa-solid fa-gear"></span>automatic
+                            <span class="fa-solid fa-gas-pump"></span>petrol
+                            <span class="fa-solid fa-gauge"></span>183mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <img src="Image/car2.png" alt="">
+                    <div class="content">
+                        <h3>new model</h3>
+                        <div class="price"><span>price: &#x20A6;33,400,000</span></div>
+                        <p>
+                            <span class="fa-solid fa-car"></span>2023
+                            <span class="fa-solid fa-gear"></span>automatic
+                            <span class="fa-solid fa-gas-pump"></span>petrol
+                            <span class="fa-solid fa-gauge"></span>183mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <img src="Image/car3.png" alt="">
+                    <div class="content">
+                        <h3>new model</h3>
+                        <div class="price"><span>price: </span>&#x20A6;23,400,000</div>
+                        <p>
+                            <span class="fa-solid fa-car"></span>2023
+                            <span class="fa-solid fa-gear"></span>automatic
+                            <span class="fa-solid fa-gas-pump"></span>petrol
+                            <span class="fa-solid fa-gauge"></span>183mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <img src="Image/car4.png" alt="">
+                    <div class="content">
+                        <h3>new model</h3>
+                        <div class="price"><span>price: </span>&#x20A6;34,500,000</div>
+                        <p>
+                            <span class="fa-solid fa-car"></span>2023
+                            <span class="fa-solid fa-gear"></span>automatic
+                            <span class="fa-solid fa-gas-pump"></span>petrol
+                            <span class="fa-solid fa-gauge"></span>183mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <img src="Image/car5.png" alt="">
+                    <div class="content">
+                        <h3>new model</h3>
+                        <div class="price"><span>price: </span>&#x20A6;22,00,000</div>
+                        <p>
+                            <span class="fa-solid fa-car"></span>2023
+                            <span class="fa-solid fa-gear"></span>automatic
+                            <span class="fa-solid fa-gas-pump"></span>petrol
+                            <span class="fa-solid fa-gauge"></span>183mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <img src="Image/car6.png" alt="">
+                    <div class="content">
+                        <h3>new model</h3>
+                        <div class="price"><span>price: </span>&#x20A6;34,500,000</div>
+                        <p>
+                            <span class="fa-solid fa-car"></span>2023
+                            <span class="fa-solid fa-gear"></span>automatic
+                            <span class="fa-solid fa-gas-pump"></span>petrol
+                            <span class="fa-solid fa-gauge"></span>183mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <img src="Image/car1.png" alt="">
+                    <div class="content">
+                        <h3>new model</h3>
+                        <div class="price"><span>price: </span>&#x20A6;33,330,000</div>
+                        <p>
+                            <span class="fa-solid fa-car"></span>2023
+                            <span class="fa-solid fa-gear"></span>automatic
+                            <span class="fa-solid fa-gas-pump"></span>petrol
+                            <span class="fa-solid fa-gauge"></span>183mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <img src="Image/car3.png" alt="">
+                    <div class="content">
+                        <h3>new model</h3>
+                        <div class="price"><span>price: </span>&#x20A6;23,400,000</div>
+                        <p>
+                            <span class="fa-solid fa-car"></span>2023
+                            <span class="fa-solid fa-gear"></span>automatic
+                            <span class="fa-solid fa-gas-pump"></span>petrol
+                            <span class="fa-solid fa-gauge"></span>183mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <img src="Image/car4.png" alt="">
+                    <div class="content">
+                        <h3>new model</h3>
+                        <div class="price"><span>price: </span>&#x20A6;34,500,000</div>
+                        <p>
+                            <span class="fa-solid fa-car"></span>2023
+                            <span class="fa-solid fa-gear"></span>automatic
+                            <span class="fa-solid fa-gas-pump"></span>petrol
+                            <span class="fa-solid fa-gauge"></span>183mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <img src="Image/car5.png" alt="">
+                    <div class="content">
+                        <h3>new model</h3>
+                        <div class="price"><span>price: </span>&#x20A6;22,00,000</div>
+                        <p>
+                            <span class="fa-solid fa-car"></span>2023
+                            <span class="fa-solid fa-gear"></span>automatic
+                            <span class="fa-solid fa-gas-pump"></span>petrol
+                            <span class="fa-solid fa-gauge"></span>183mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <img src="Image/car6.png" alt="">
+                    <div class="content">
+                        <h3>new model</h3>
+                        <div class="price"><span>price: </span>&#x20A6;34,500,000</div>
+                        <p>
+                            <span class="fa-solid fa-car"></span>2023
+                            <span class="fa-solid fa-gear"></span>automatic
+                            <span class="fa-solid fa-gas-pump"></span>petrol
+                            <span class="fa-solid fa-gauge"></span>183mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------....VEHICLE SECTION ENDS -------  -->
+
+    <!-------....SERVICES SECTION START-------  -->
+    <section class="services" id="services">
+        <h2 >our <span class="span-title">services</span></h1>
+        <div class="box-container">
+
+            <div class="boxx">
+                <i class="fa-solid fa-car"></i>
+                <h3>car selling</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, quo.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="boxx">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <h3>parts repair</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, quo.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="boxx">
+                <i class="fa-solid fa-car-burst"></i>
+                <h3>car insurance</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, quo.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="boxx">
+                <i class="fa-solid fa-car-battery"></i>
+                <h3>battery replacement</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, quo.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="boxx">
+                <i class="fa-solid fa-gas-pump"></i>
+                <h3>oil change</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, quo.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="boxx">
+                <i class="fa-solid fa-headset"></i>
+                <h3>24/7 support</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, quo.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+    </section>
+    <!-------....SERVICES SECTION ENDS -------  -->
+
+    
+    <!-------....PRODUCTS SECTION START-------  -->
+    <section id="products" class="products">
+        <h2>Our <span class="span-title">Products</span></h2>
+        <div class="category-buttons">
+            <button class="category-button featured" data-category="featured">Featured</button>
+            <button class="category-button" data-category="new">New In</button>
+            <button class="category-button" data-category="lowest-price">Lowest Price</button>
+            <button class="category-button" data-category="highest-price">Highest Price</button>
+        </div>
+        <div class="product-list">
+            <div class="product-box new">
+                <img src="Image/car8.png" alt="New In" class="product-image">
+                <p class="product-manufacturer">Toyota</p>
+                <p class="product-name">RAV4</p>
+                <p class="product-price">&#x20A6;43,200,000</p>
+            </div>
+    
+            <div class="product-box new">
+                <img src="Image/car1.png" alt="New In" class="product-image">
+                <p class="product-manufacturer">Audi</p>
+                <p class="product-name">A4</p>
+                <p class="product-price">&#x20A6;47,000,000</p>
+            </div>
+    
+            <div class="product-box new">
+                <img src="Image/car2.png" alt="New In" class="product-image">
+                <p class="product-manufacturer">Kia</p>
+                <p class="product-name">Sportage</p>
+                <p class="product-price">&#x20A6;37,000,000</p>
+            </div>
+            <div class="product-box lowest-price">
+                <img src="Image/car5.png" alt="Featured" class="product-image">
+                <p class="product-manufacturer">Mazda</p>
+                <p class="product-name">Mazda6</p>
+                <p class="product-price">&#x20A6;20,230,000</p>
+            </div>
+            <div class="product-box lowest-price">
+                <img src="Image/car3.png" alt="Featured" class="product-image">
+                <p class="product-manufacturer">Volkswagen</p>
+                <p class="product-name">Jetta</p>
+                <p class="product-price">&#x20A6;15,230,000</p>
+            </div>
+            <div class="product-box lowest-price">
+                <img src="Image/car4.png" alt="Featured" class="product-image">
+                <p class="product-manufacturer">Volkswagen</p>
+                <p class="product-name">Tiguan</p>
+                <p class="product-price">&#x20A6;23,230,000</p>
+            </div>
+            <div class="product-box lowest-price">
+                <img src="Image/car10.png" alt="Lowest Price" class="product-image">
+                <p class="product-manufacturer">Subaru</p>
+                <p class="product-name">Forester</p>
+                <p class="product-price">&#x20A6;17,500,000</p>
+            </div>
+            <div class="product-box highest-price">
+                <img src="Image/car11.png" alt="Highest Price" class="product-image">
+                <p class="product-manufacturer">Honda</p>
+                <p class="product-name">Oddysey</p>
+                <p class="product-price">&#x20A6;35,400,000</p>
+            </div>
+            <div class="product-box new">
+                <img src="Image/car12.png" alt="New In" class="product-image">
+                <p class="product-manufacturer">Jaguar</p>
+                <p class="product-name">E-pace</p>
+                <p class="product-price">&#x20A6;43,600,000</p>
+            </div>
+            <div class="product-box highest-price">
+                <img src="Image/car13.png" alt="Featured" class="product-image">
+                <p class="product-manufacturer">Volvo</p>
+                <p class="product-name">XC90</p>
+                <p class="product-price">&#x20A6;33,000,000</p>
+            </div>
+            <div class="product-box lowest-price">
+                <img src="Image/car14.png" alt="Lowest Price" class="product-image">
+                <p class="product-manufacturer">Kia</p>
+                <p class="product-name">Sorento</p>
+                <p class="product-price">&#x20A6;15,600,000</p>
+            </div>
+            <div class="product-box highest-price">
+                <img src="Image/car7.png" alt="Highest Price" class="product-image">
+                <p class="product-manufacturer">Nissan</p>
+                <p class="product-name">Sentra</p>
+                <p class="product-price">&#x20A6;34,600,000</p>
+            </div>
+        </div>
+    </section>  
+    <!-------....PRODUCTS SECTION ENDS -------  -->
+
+
+    <!-------....REVIEWS SECTION START-------  -->
+    <section class="reviews" id="reviews">
+        <div class="testimonial-section">
+            <h2>What our clients are saying</h2>
+            <div class="testimonial-slider">
+                <div class="slider-container">
+                    <div class="testimonial-container">
+                        <div class="testimonial">
+                            <img src="Image/img1.jpg" alt="Client 1" class="testimonial-image">
+                            <div class="testimonial-content">
+                                <h3>John Smith</h3>
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p>"I had an amazing experience at CarShop! The staff was knowledgeable and friendly,
+                                    and they helped me find the perfect car that suited my needs.
+                                    The entire process was smooth and hassle-free.
+                                    I highly recommend CarShop to anyone looking for a reliable and trustworthy car
+                                    dealership."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-container">
+                        <div class="testimonial">
+                            <img src="Image/img2.jpg" alt="Client 2" class="testimonial-image">
+                            <div class="testimonial-content">
+                                <h3>Sarah Johnson</h3>
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p>"I recently purchased a car from CarShop, and I couldn't be happier with my decision. The
+                                    staff was incredibly helpful, guiding me through the entire process and answering all my
+                                    questions. The quality of the cars they offer is exceptional, and I felt confident in my
+                                    purchase. I would definitely recommend CarShop to anyone in need of a reliable vehicle."
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-container">
+                        <div class="testimonial">
+                            <img src="Image/img3.jpg" alt="Client 3" class="testimonial-image">
+                            <div class="testimonial-content">
+                                <h3>Emily Rodriguez</h3>
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p>"CarShop exceeded my expectations in every way. The team was professional and friendly,
+                                    helping me find the perfect car within my budget. The buying process was seamless, and
+                                    the
+                                    car I purchased has been running smoothly. I'm extremely satisfied with my experience at
+                                    CarShop and would highly recommend them to anyone in search of a reliable vehicle."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-container">
+                        <div class="testimonial">
+                            <img src="Image/img4.jpg" alt="Client 4" class="testimonial-image">
+                            <div class="testimonial-content">
+                                <h3>David Thompson</h3>
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p>"I had a wonderful experience at CarShop. The staff was knowledgeable and friendly, and
+                                    they
+                                    helped me find the perfect car that suited my preferences. The entire process was
+                                    seamless,
+                                    and I'm extremely satisfied with my purchase. I highly recommend CarShop to anyone
+                                    looking
+                                    for a reliable car dealership."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-container">
+                        <div class="testimonial">
+                            <img src="Image/img5.jpg" alt="Client 5" class="testimonial-image">
+                            <div class="testimonial-content">
+                                <h3>Linda Davis</h3>
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p>"CarShop provided exceptional service and helped me find the perfect car within my
+                                    budget.
+                                    The staff was professional and friendly, making the entire process stress-free. I'm
+                                    extremely satisfied with my purchase and would highly recommend CarShop to anyone
+                                    looking
+                                    for a reliable dealership."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-container">
+                        <div class="testimonial">
+                            <img src="Image/img6.jpg" alt="Client 3" class="testimonial-image">
+                            <div class="testimonial-content">
+                                <h3>Emily Rodriguez</h3>
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p>"CarShop exceeded my expectations in every way. The team was professional and friendly,
+                                    helping me find the perfect car within my budget. The buying process was seamless, and
+                                    the
+                                    car I purchased has been running smoothly. I'm extremely satisfied with my experience at
+                                    CarShop and would highly recommend them to anyone in search of a reliable vehicle."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-------....REVIEWS SECTION ENDS -------  -->
+
+
+    <!-------....CONTACT SECTION START-------  -->
+      <section class="contact-section" id="contact">
+        <div class="container">
+          <h2>Contact <span class="span-title">Us</span></h2>
+          <div class="contact-content">
+            <div class="contact-form">
+              <input type="text" placeholder="Your Name">
+              <input type="email" placeholder="Your Email">
+              <textarea placeholder="Your Message"></textarea>
+              <button type="submit" class="btn">Send Message</button>
+            </div>
+          </div>
+        </div>
+      </section> 
+    <!-------....CONTACT SECTION ENDS -------  -->
+
+    <!-------....FOOTER  START-------  -->
+    <section class="footer">
+        <div class="footer-box-container">
+            <div class="box-2">
+                <h3>our branches</h3>
+                <a href="#"><i class="fa-solid fa-location-dot"></i> Asia</a>
+                <a href="#"><i class="fa-solid fa-location-dot"></i> Europe</a>
+                <a href="#"><i class="fa-solid fa-location-dot"></i> africa</a>
+                <a href="#"><i class="fa-solid fa-location-dot"></i> America</a>
+                <a href="#"><i class="fa-solid fa-location-dot"></i> United Kingdom</a>
+            </div>
+            <div class="box-2">
+                <h3>quick links</h3>
+                <a href="#home"><i class="fa-solid fa-arrow-right"></i> home</a>
+                <a href="#vehicles"><i class="fa-solid fa-arrow-right"></i> vehicles</a>
+                <a href="#services"><i class="fa-solid fa-arrow-right"></i> services</a>
+                <a href="#featured"><i class="fa-solid fa-arrow-right"></i> featured</a>
+                <a href="#reviews"><i class="fa-solid fa-arrow-right"></i> reviews</a>
+                <a href="#contact"><i class="fa-solid fa-arrow-right"></i> contact</a>
+            </div>
+            <div class="box-2">
+                <h3>contact information</h3>
+                <a href="#"><i class="fa-solid fa-phone"></i> +123-456-7890</a>
+                <a href="#"><i class="fa-solid fa-phone"></i> +111-222-3333</a>
+                <a href="#"><i class="fa-solid fa-envelope"></i> carshop@yahoo.co.uk</a>
+                <a href="#"><i class="fa-solid fa-location-dot"></i>Lagos, Nigeria</a>
+            </div>
+            <div class="box-2">
+                <h3>social media</h3>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i> facebook</a>
+                <a href="#"><i class="fa-brands fa-instagram"></i> instagram</a>
+                <a href="#"><i class="fa-brands fa-twitter"></i> twitter</a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i> linkedin</a>
+                <a href="#"><i class="fa-brands fa-pinterest"></i> pinterest</a>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; All rights reserved | CarShop
+        </div>
+    </section>
+    <!-------....FOOTER ENDS -------  -->
+
+    <!-- ------------------------SCRIPTS--------------------------- -->
+    <script src="https://kit.fontawesome.com/28be1bd190.js" crossorigin="anonymous"></script>
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
